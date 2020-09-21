@@ -4,7 +4,7 @@ This images stays up to date with the original one but with LDAP support
 Just added this code snippet as suggested by https://github.com/tianon, Wordpress official image mantainer:
 
 ````
-FROM wordpress
+FROM wordpress:php7.4-fpm
 
 RUN set -x \
 	&& apt-get update \
