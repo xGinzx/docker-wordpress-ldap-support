@@ -1,4 +1,4 @@
-FROM wordpress
+FROM wordpress:php7.4-fpm
 
 RUN set -x \
 	&& apt-get update \
