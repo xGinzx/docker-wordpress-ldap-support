@@ -1,7 +1,7 @@
-# Docker image of Wordpress with LDAP support
+# Docker image of Wordpress php-fpm with LDAP support
 This images stays up to date with the original one but with LDAP support
 
-Just added this code snippet as suggested by https://github.com/tianon, Wordpress official image mantainer:
+Forked from dalareo/docker-wordpress-ldap-support
 
 ````
 FROM wordpress:php7.4-fpm
